@@ -67,3 +67,9 @@ li {
   cursor: pointer;
 }
 
+@media (max-width: 440px) {
+  .todoApp {
+    width: 300px;
+    height: 500px;
+  }
+}
