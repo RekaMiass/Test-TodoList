@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.todoApp {
+  color: rgb(37, 150, 190);
+  margin: 70px auto;
+  padding: 30px;
+  width: 370px;
+  height: 600px;
+  border: 1px solid rgb(19, 94, 121);
+  border-radius: 3rem;
+}
+
+/* For TodoForm */
+
+.header,
+.notasks {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 300px;
+  font-size: 20px;
+}
+
+/* For TodoList */
+
+i {
+  color: rgb(245, 92, 92);
+  cursor: pointer;
+  float: right;
+}
+
+.notasks {
+  font-size: 24px;
+}
+
+.task-list {
+  text-align: justify;
+  padding-left: -50px;
+}
+
+li {
+  list-style: none;
+  border-bottom: 1px solid rgba(23, 113, 146, 0.836);
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
